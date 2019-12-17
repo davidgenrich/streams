@@ -47,6 +47,7 @@ final class Unit3MyTerminalTest {
         tester(new ArrayList<>(ABC), instance.collectToList(ABC.stream()));
     }
 
+    
     @Test
     @Order(4)
     void collectJoining() {
